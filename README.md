@@ -24,12 +24,10 @@ This image shows the blocks code from the last commit in master.
 This image may take a few minutes to refresh.
 
 ```blocks
-basic.forever(function () {
-    for (let index = 0; index <= 25; index++) {
-        screenMagic.plotAt(index)
-        basic.pause(100)
-    }
-})
+for (let index = 0; index <= 25; index++) {
+    screenMagic.plotAt(index)
+    basic.pause(100)
+}
 ```
 
 #### Metadata (used for search, rendering)
