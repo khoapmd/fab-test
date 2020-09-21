@@ -12,4 +12,3 @@ namespace screenMagic {
         led.plot(x, y);
     } 
 }
-
